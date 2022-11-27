@@ -2,6 +2,12 @@
 
 Python Boto scripts to list all the ALB, NLB and CLB in your AWS account with their associations and mappings like Target group, Targets etc.
 
+* `alb-list.py`     - to list the Application and Network Load balancer and their and targets
+* `clb-list.py`     - to list the Classic Load balancers and their targets
+* `alb-json.py`     - list Application and Network load balancer and their targets as JSON
+* `clb-json.py`     - to list the Classic Load balancers and their targets as JSON
+* `alb-diagram.py`  - Create a Flowchart Diagram of your Application and Network Loadbalancers and their target 
+* `clb-diagram.py`  - Create a flowchart diagram for your Classic Load balancers and their target
 
 
 ![alt text](image.png "ALB listing as a Diagram example")
